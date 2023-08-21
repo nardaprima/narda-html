@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<head>
+    <title>belajar java script dari nol</title>
+    <script>
+
+        console.log("hello 35 dari head");
+        </script>
+</head>
+<body>
+    <p>tutorial java script untuk pemula</p>
+    <a href="#" onclick="alert('Yey!')">klik aku!</a>
+    <script>
+       
+            var hasil= document.getelementbyid("hasil output")
+             console.log("hello 35 dari body")
+    </script>
+    <p>-------------------------</p>
+    <script>
+        document.write("<h1>hello world</h1>");
+        document.write("<hr>");
+        document.write("<p>saya sedang belajar java script</p>");
+        document.write("<b>petanikode.com</b>")
+    </script>
+    <p>-------------------------</p>
+    <h1>tutorial latihan javascript bagi pemula</h1>
+    <div id="hasil-output"></div>
+    <script
+    src="lthn.js">
+
+    </script>
+<script>
+        
+       
+    </script>
+    <p>-------------------------</p>
+    <script>
+        var hasil= document.getElementById("hasil-output");
+
+        hasil.innerHTML ="<p>aku suka javascript<p/>";
+
+    </script>
+    <p>-------------------------</p>
+    <script>
+        var name= "detik.com";
+        var visitorcount=34567;
+        var isactive=true;
+        var url= "https://www.detik.com";
+
+        alert("Selamat datang di"+ name);
+        
+        document.write("Nama situs: "+ name+ "<br>");
+        document.write("Jumlah pengunjung: "+ visitorcount+ "<br>");
+        document.write("Status aktif: "+ isactive+ "<br>");
+        document.write("Alamat url: "+ url+ "<br>")   
+
+    </script>
+    <p>-------------------------</p>
+    <script>
+        var a = 20;
+        var b = 4;
+        var c = 0;
+
+        c = a-b;
+        document.write(` ${a}- ${b}= ${c}<br/>`);
+    </script>
+    <p>-------------------------</p>
+    <script>
+        document.write("Mula-mula nilai  score...<br>");
+
+        var score = 100;
+        document.write("score = "+ score + "<br/>");
+
+        score += 5;
+        document.write("score = "+ score + "<br/>");
+
+        score-= 2;
+        document.write("score = "+ score + "<br/>");
+             
+    </script>
+    <p>-------------------------</p>
+
+    <script>
+        var aku = 25;
+        var kamu = 15;
+
+        var hasil= aku==kamu
+        document.write(`${aku}== ${kamu} = ${hasil}<br/>`);
+
+    </script>
+<p>-------------------------</p>
+    <script>
+        var aku = 20;
+        var kamu = 10;
+
+        var benar = aku > kamu;
+        var salah = aku < kamu;
+
+        var hasil= benar && salah;
+        document.write(`${benar} && ${salah} = ${hasil}<br/>`);
+
+    </script>  
+<p>-------------------------</p>
+    <script>
+        var pertanyaan= confirm("apakah kamu berumur diatas 18?")
+
+        var hasil= pertanyaan? "selamat datang " : "kamu tidak boleh disini";
+        document.write(hasil);
+    </script>
+<p>-------------------------</p>
+    <script>
+        var totalbelanja= prompt("total belanja?",0);
+        
+        if(totalbelanja > 100000){
+            document.write("<h2>selamat anda dapat hadiah</h2>");
+        }
+        document.write("<p>terimakasih sudah belanja di toko kami</p>");
+        
+    </script>
+<p>-------------------------</p>
+     <script>
+        var pasword= prompt("pasword");
+        
+        if(pasword=="100000")
+        document.write("<p>selamat datang bos!</p>");
+        else {  
+        document.write("<p>pasword salah coba lagi<p/>");
+        }
+        document.write("<p>terimakasih sudah pakai aplikasi ini<p/>");        
+    </script>
+<p>-------------------------</p>
+    <script>
+        var nilai = prompt("Inputkan nilai akhir:");
+        var grade = "";
+
+        if(nilai >=98) grade ="A+"
+        else if(nilai >= 90) grade ="A "
+        else if(nilai >= 80) grade ="B+"
+        document.write(`<p>Grade anda: ${grade}</p>`);
+        </script>
+<p>-------------------------</p>
+<script>
+    var  jawab = prompt("kamu beruntung ! silahkan pilih hadiahmu dengan memasukan angka 1 sampai 5")
+    var hadiah ="";
+
+    switch (jawab){
+        case "1" :
+            hadiah="tisu";
+        break;
+        case "2" :
+            hadiah="susu";
+        break;
+        case "3" :
+            hadiah= "500000";
+        break;
+        case "4" :
+            hadiah="roti";
+        break;
+    default:
+    document.write("<p>oops! anda salah pilih </p>");
+    }
+    if(hadiah===""){
+        document.write("<p>kamu gagal mendapat hadiah</p>");
+    }else{
+        document.write("<h2>selamat kamu mendapatkan " + hadiah + "</h2>");
+    }
+</script>
+<p>-------------------------</p>
+<script>
+    var jwb = prompt("Apakah Jakarta ibu kota indonesia");
+
+    var jawaban = (jwb.toUpperCase() == "IYA") ? "benar": "salah";
+
+    document.write(`Jawaban anda: <b>${jawaban}</b>`);
+</script>
+<p>-------------------------</p>
+<script>
+    var username = prompt("username");
+
+    var password = prompt("password");
+
+    if(username == "rahmatfauzi"){
+        if(password == "kopi"){
+            document.write("<h2>Selamat datang pa bos</h2>");
+        } else {
+            document.write("<p>password salah,coba lagi</p>");
+        }
+    } else {
+        document.write("<p>bos,anda tidak terdaftar</p>");
+
+    }
+</script>
+<p>-------------------------</p>
+<script>
+    for(let i= 0; i < 11; i++){
+        document.write("<p>perulangan ke=" + i +"</p>");
+    }
+</script>
+
+</body>
+</html>
