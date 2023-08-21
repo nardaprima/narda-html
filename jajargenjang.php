@@ -5,7 +5,7 @@ class luas
 
     public function hitung()
     {
-echo "luas dari jajargenjang adalah....";
+echo "luas jajar genjang berapa....";
 echo  $a*$t;
 }
 }
