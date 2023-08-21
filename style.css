@@ -2,3 +2,9 @@ body{
     background-color: aquamarine;
 
 }
+.form-belajar {
+    width: 40%;
+    position: relative;
+    display: block;
+    margin: 100px auto;
+}
