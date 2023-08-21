@@ -7,9 +7,9 @@
     <form action="beasiswa_output.php" method="post">
     <h2>PENERIMAAN BEASISWA</h2>
     <pre>
-    Nama         :<input type="text" name="nama">
-    Nim          :<input type="text" name="nim">
-    Kelas        :<input type="text" name="kelas">
+    Nama         :<input type="text" name="username">
+    Nim          :<input type="text" name="kelas">
+    Kelas        :<input type="text" name="tempat sekolah">
     Jurusan      :<Select name=jurusan>
     <option value=Sistem Informasi>SI</option>
     <option value=Teknik Informatika>TI</option>
